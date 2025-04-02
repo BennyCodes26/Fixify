@@ -1,0 +1,57 @@
+{
+  "expo": {
+    "name": "Fixify",
+    "slug": "my-expo-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "scheme": "fixify",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.fixify.app",
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "This app needs access to location to show your position on the map and help customers find you.",
+        "NSLocationAlwaysUsageDescription": "This app needs access to location to show your position on the map and help customers find you.",
+        "NSLocationAlwaysAndWhenInUseUsageDescription": "This app needs access to location to show your position on the map and help customers find you.",
+        "NSLocationTemporaryUsageDescriptionDictionary": {
+          "LocationAccuracy": "This app needs access to precise location to show your exact position on the map."
+        }
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.fixify.app",
+      "permissions": [
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_BACKGROUND_LOCATION",
+        "FOREGROUND_SERVICE"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Allow Fixify to use your location to show your position on the map and help customers find you.",
+          "locationAlwaysPermission": "Allow Fixify to use your location in the background to show your position on the map.",
+          "locationWhenInUsePermission": "Allow Fixify to use your location to show your position on the map."
+        }
+      ]
+    ]
+  }
+}
