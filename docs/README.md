@@ -1,52 +1,50 @@
-# Fixify Documentation Videos
+# Fixify App Screenshots and Videos
 
-This directory contains video demonstrations and tutorials for the Fixify mobile application.
+This directory contains visual documentation of the Fixify mobile application's core user flows.
 
-## Video Documentation Structure
+## Onboarding Flow
+- `onboarding-1.png` - Welcome screen introducing Fixify
+- `onboarding-2.png` - Service overview and features
+- `onboarding-3.png` - How Fixify works
+- `onboarding-4.png` - Getting started screen
 
-### User Flow Demonstrations
-- `user-registration.mp4` - Complete user registration process
-- `technician-onboarding.mp4` - Technician profile setup and verification
-- `customer-dashboard.mp4` - Customer dashboard navigation and features
+## Registration and Login
+### Customer Flow
+- `customer-registration.mp4` - Complete customer registration process
+- `customer-login.mp4` - Customer login demonstration
+- `customer-dashboard.png` - Customer dashboard overview
 
-### Feature Demonstrations
-- `repair-request.mp4` - How to submit a repair request
-- `chat-system.mp4` - Real-time chat functionality
-- `payment-process.mp4` - Payment flow and processing
-- `progress-tracking.mp4` - Repair progress updates and tracking
+### Technician Flow
+- `technician-registration.mp4` - Complete technician registration process
+- `technician-login.mp4` - Technician login demonstration
+- `technician-dashboard.png` - Technician dashboard overview
 
-### Technical Tutorials
-- `setup-installation.mp4` - Project setup and installation guide
-- `firebase-config.mp4` - Firebase configuration and setup
-- `deployment-guide.mp4` - App deployment process
+## File Guidelines
 
-## Video Guidelines
+### Images
+- Format: PNG or JPG
+- Resolution: Minimum 1080x1920 (portrait) or 1920x1080 (landscape)
+- File Size: Optimize to be under 5MB
 
-1. **File Format**: All videos should be in MP4 format
-2. **Resolution**: Recommended 1920x1080 (Full HD)
-3. **Duration**: Keep videos under 5 minutes for better engagement
-4. **File Size**: Optimize videos to be under 100MB when possible
+### Videos
+- Format: MP4
+- Resolution: 1080x1920 (portrait) or 1920x1080 (landscape)
+- Duration: Keep under 2 minutes per flow
+- File Size: Optimize to be under 100MB
 
-## Adding New Videos
+## Adding New Media
 
-1. Record your video demonstration
-2. Optimize the video file size
-3. Name the file descriptively (e.g., `feature-name.mp4`)
-4. Add the video to this directory
-5. Update this README with the new video information
+1. Record screenshots or videos of the feature
+2. Optimize the file size
+3. Name files descriptively (e.g., `customer-registration.mp4`)
+4. Add files to this directory
+5. Update this README with the new file information
 6. Commit and push changes
-
-## Video Organization
-
-Each video should demonstrate a specific feature or process. When adding new videos:
-1. Place them in the appropriate category section
-2. Update the README with a brief description
-3. Include any relevant notes or prerequisites
 
 ## Best Practices
 
-- Start with a brief introduction
-- Show both successful and error scenarios
-- Include voice narration for clarity
-- Use clear, readable text in demonstrations
-- Keep the UI clean and focused during recording 
+- Capture the entire screen for better context
+- Ensure text is readable in screenshots
+- For videos, demonstrate the complete flow without cuts
+- Keep the UI clean and focused during recording
+- Include loading states and transitions 
